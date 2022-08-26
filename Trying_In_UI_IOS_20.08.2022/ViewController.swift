@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     //Объявление кнопочки и её срабатывание
     @IBAction func Butt(_ sender: UIButton) {
         print("Button Works!")
-    
+        Label_1.text = String("Label Works!")
     }
     @IBOutlet weak var Label_1: UILabel!
     
@@ -19,7 +19,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        Label_1.text = String("a")
+ 
+        
         
         
     }
